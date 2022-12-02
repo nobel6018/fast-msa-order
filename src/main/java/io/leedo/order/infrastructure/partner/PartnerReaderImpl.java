@@ -4,11 +4,11 @@ import io.leedo.order.common.exception.EntityNotFoundException;
 import io.leedo.order.domain.partner.Partner;
 import io.leedo.order.domain.partner.PartnerReader;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.apachecommons.CommonsLog;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
 
 @Slf4j
-@CommonsLog
+@Component
 @RequiredArgsConstructor
 public class PartnerReaderImpl implements PartnerReader {
 
